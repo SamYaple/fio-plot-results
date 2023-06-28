@@ -1,0 +1,317 @@
+{
+  "fio version" : "fio-3.33",
+  "timestamp" : 1687909164,
+  "timestamp_ms" : 1687909164650,
+  "time" : "Tue Jun 27 23:39:24 2023",
+  "jobs" : [
+    {
+      "jobname" : "FIOJOB",
+      "groupid" : 0,
+      "error" : 0,
+      "eta" : 0,
+      "elapsed" : 29,
+      "job options" : {
+        "ioengine" : "io_uring",
+        "rw" : "randread",
+        "bs" : "4k",
+        "iodepth" : "4",
+        "numjobs" : "1",
+        "rwmixread" : "95",
+        "runtime" : "60",
+        "loops" : "1",
+        "direct" : "1",
+        "steadystate" : "iops:10%%",
+        "steadystate_duration" : "10",
+        "steadystate_ramp_time" : "1",
+        "log_avg_msec" : "1000",
+        "invalidate" : "1",
+        "write_bw_log" : "/home/user/benchmarks/512s/1x/nvme3n1/4k/randread-iodepth-4-numjobs-1",
+        "write_lat_log" : "/home/user/benchmarks/512s/1x/nvme3n1/4k/randread-iodepth-4-numjobs-1",
+        "write_iops_log" : "/home/user/benchmarks/512s/1x/nvme3n1/4k/randread-iodepth-4-numjobs-1",
+        "filename" : "/dev/nvme3n1"
+      },
+      "read" : {
+        "io_bytes" : 3837407232,
+        "io_kbytes" : 3747468,
+        "bw_bytes" : 137585860,
+        "bw" : 134361,
+        "iops" : 33590.297946,
+        "runtime" : 27891,
+        "total_ios" : 936867,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 940,
+          "max" : 33950,
+          "mean" : 2599.857986,
+          "stddev" : 600.643211,
+          "N" : 936867
+        },
+        "clat_ns" : {
+          "min" : 41480,
+          "max" : 460580,
+          "mean" : 115483.275968,
+          "stddev" : 52623.058240,
+          "N" : 936867,
+          "percentile" : {
+            "1.000000" : 61184,
+            "5.000000" : 63232,
+            "10.000000" : 63744,
+            "20.000000" : 65280,
+            "30.000000" : 75264,
+            "40.000000" : 83456,
+            "50.000000" : 99840,
+            "60.000000" : 113152,
+            "70.000000" : 134144,
+            "80.000000" : 160768,
+            "90.000000" : 201728,
+            "95.000000" : 222208,
+            "99.000000" : 244736,
+            "99.500000" : 246784,
+            "99.900000" : 288768,
+            "99.950000" : 337920,
+            "99.990000" : 411648
+          }
+        },
+        "lat_ns" : {
+          "min" : 44520,
+          "max" : 463070,
+          "mean" : 118083.133954,
+          "stddev" : 52591.329191,
+          "N" : 936867
+        },
+        "bw_min" : 95963,
+        "bw_max" : 194686,
+        "bw_agg" : 100.000000,
+        "bw_mean" : 135707.555556,
+        "bw_dev" : 33929.817958,
+        "bw_samples" : 27,
+        "iops_min" : 23990,
+        "iops_max" : 48672,
+        "iops_mean" : 33926.740741,
+        "iops_stddev" : 8482.451272,
+        "iops_samples" : 27
+      },
+      "write" : {
+        "io_bytes" : 0,
+        "io_kbytes" : 0,
+        "bw_bytes" : 0,
+        "bw" : 0,
+        "iops" : 0.000000,
+        "runtime" : 0,
+        "total_ios" : 0,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "clat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "bw_min" : 0,
+        "bw_max" : 0,
+        "bw_agg" : 0.000000,
+        "bw_mean" : 0.000000,
+        "bw_dev" : 0.000000,
+        "bw_samples" : 0,
+        "iops_min" : 0,
+        "iops_max" : 0,
+        "iops_mean" : 0.000000,
+        "iops_stddev" : 0.000000,
+        "iops_samples" : 0
+      },
+      "trim" : {
+        "io_bytes" : 0,
+        "io_kbytes" : 0,
+        "bw_bytes" : 0,
+        "bw" : 0,
+        "iops" : 0.000000,
+        "runtime" : 0,
+        "total_ios" : 0,
+        "short_ios" : 0,
+        "drop_ios" : 0,
+        "slat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "clat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        },
+        "bw_min" : 0,
+        "bw_max" : 0,
+        "bw_agg" : 0.000000,
+        "bw_mean" : 0.000000,
+        "bw_dev" : 0.000000,
+        "bw_samples" : 0,
+        "iops_min" : 0,
+        "iops_max" : 0,
+        "iops_mean" : 0.000000,
+        "iops_stddev" : 0.000000,
+        "iops_samples" : 0
+      },
+      "sync" : {
+        "total_ios" : 0,
+        "lat_ns" : {
+          "min" : 0,
+          "max" : 0,
+          "mean" : 0.000000,
+          "stddev" : 0.000000,
+          "N" : 0
+        }
+      },
+      "job_runtime" : 27890,
+      "usr_cpu" : 6.941556,
+      "sys_cpu" : 16.410900,
+      "ctx" : 741235,
+      "majf" : 0,
+      "minf" : 45,
+      "iodepth_level" : {
+        "1" : 0.100000,
+        "2" : 0.100000,
+        "4" : 99.999680,
+        "8" : 0.000000,
+        "16" : 0.000000,
+        "32" : 0.000000,
+        ">=64" : 0.000000
+      },
+      "iodepth_submit" : {
+        "0" : 0.000000,
+        "4" : 100.000000,
+        "8" : 0.000000,
+        "16" : 0.000000,
+        "32" : 0.000000,
+        "64" : 0.000000,
+        ">=64" : 0.000000
+      },
+      "iodepth_complete" : {
+        "0" : 0.000000,
+        "4" : 100.000000,
+        "8" : 0.000000,
+        "16" : 0.000000,
+        "32" : 0.000000,
+        "64" : 0.000000,
+        ">=64" : 0.000000
+      },
+      "latency_ns" : {
+        "2" : 0.000000,
+        "4" : 0.000000,
+        "10" : 0.000000,
+        "20" : 0.000000,
+        "50" : 0.000000,
+        "100" : 0.000000,
+        "250" : 0.000000,
+        "500" : 0.000000,
+        "750" : 0.000000,
+        "1000" : 0.000000
+      },
+      "latency_us" : {
+        "2" : 0.000000,
+        "4" : 0.000000,
+        "10" : 0.000000,
+        "20" : 0.000000,
+        "50" : 0.171849,
+        "100" : 49.718263,
+        "250" : 49.890753,
+        "500" : 0.219135,
+        "750" : 0.000000,
+        "1000" : 0.000000
+      },
+      "latency_ms" : {
+        "2" : 0.000000,
+        "4" : 0.000000,
+        "10" : 0.000000,
+        "20" : 0.000000,
+        "50" : 0.000000,
+        "100" : 0.000000,
+        "250" : 0.000000,
+        "500" : 0.000000,
+        "750" : 0.000000,
+        "1000" : 0.000000,
+        "2000" : 0.000000,
+        ">=2000" : 0.000000
+      },
+      "latency_depth" : 4,
+      "latency_target" : 0,
+      "latency_percentile" : 100.000000,
+      "latency_window" : 0,
+      "steadystate" : {
+        "ss" : "iops:10.000000%",
+        "duration" : 10,
+        "attained" : 1,
+        "criterion" : "2.893851%",
+        "max_deviation" : 706.800000,
+        "slope" : 0.000000,
+        "data" : {
+          "bw_mean" : 100042711,
+          "iops_mean" : 24424,
+          "iops" : [
+            24695,
+            24695,
+            24523,
+            24066,
+            24096,
+            24072,
+            25131,
+            24283,
+            24433,
+            24248
+          ],
+          "bw" : [
+            101153569,
+            101153569,
+            100448352,
+            98574606,
+            98697216,
+            98599207,
+            102937113,
+            99464328,
+            100079343,
+            99319808
+          ]
+        }
+      }
+    }
+  ],
+  "disk_util" : [
+    {
+      "name" : "nvme3n1",
+      "read_ios" : 936862,
+      "write_ios" : 0,
+      "read_merges" : 0,
+      "write_merges" : 0,
+      "read_ticks" : 105212,
+      "write_ticks" : 0,
+      "in_queue" : 105212,
+      "util" : 99.699743
+    }
+  ]
+}
